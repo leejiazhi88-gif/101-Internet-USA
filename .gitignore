@@ -1,0 +1,19 @@
+# Local credentials and environments
+.env
+*.env
+.venv/
+
+# Python and OS artifacts
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local runtime outputs and snapshots
+/outputs/
+/work/**
+!/work/
+!/work/*.py
+!/work/*/
+!/work/*/*.py
+!/work/*/*/
+!/work/*/*/*.py
